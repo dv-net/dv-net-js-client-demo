@@ -1,0 +1,24 @@
+{
+  "name": "dv-net-js-client-demo",
+  "version": "0.1.0",
+  "private": false,
+  "description": "DV Net Express.js Demo Shop",
+  "author": "DV Net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv-net/dv-net-js-client-demo.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@dv.net/js-client": "^0.1.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "uuid": "^13.0.0"
+  }
+}

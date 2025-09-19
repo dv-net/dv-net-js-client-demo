@@ -1,0 +1,21 @@
+{
+  "name": "DV NET",
+  "products": [
+    { "id": "p1",  "name": "A sip of cozy Greek sunshine",    "price": 9,   "image": "https://picsum.photos/seed/coffee-mug/400/300" },
+    { "id": "p2",  "name": "Fresh lake morning",               "price": 25,  "image": "https://picsum.photos/seed/tshirt/400/300" },
+    { "id": "p3",  "name": "Sound of ocean freedom",           "price": 59,  "image": "https://picsum.photos/seed/headphones/400/300" },
+    { "id": "p4",  "name": "Your mountain adventure companion", "price": 79,  "image": "https://picsum.photos/seed/backpack/400/300" },
+    { "id": "p5",  "name": "Keep the warmth of rustic rest",   "price": 19,  "image": "https://picsum.photos/seed/thermo-bottle/400/300" },
+    { "id": "p6",  "name": "Inspiration in the forest",        "price": 69,  "image": "https://picsum.photos/seed/keyboard/400/300" },
+    { "id": "p7",  "name": "Precision of mountain peaks",      "price": 29,  "image": "https://picsum.photos/seed/mouse/400/300" },
+    { "id": "p8",  "name": "Charged by the sunset",            "price": 39,  "image": "https://picsum.photos/seed/powerbank/400/300" },
+    { "id": "p9",  "name": "Vault under starry skies",         "price": 19,  "image": "https://picsum.photos/seed/usb-drive/400/300" },
+    { "id": "p10", "name": "Wave of ocean productivity",       "price": 12,  "image": "https://picsum.photos/seed/mousepad/400/300" },
+    { "id": "p11", "name": "Light for peak conquerors",        "price": 35,  "image": "https://picsum.photos/seed/desk-lamp/400/300" },
+    { "id": "p12", "name": "Power of sea energy",              "price": 29,  "image": "https://picsum.photos/seed/wireless-charger/400/300" },
+    { "id": "p13", "name": "Rhythm of retro drive",            "price": 49,  "image": "https://picsum.photos/seed/bluetooth-speaker/400/300" },
+    { "id": "p14", "name": "Strength of rocks, freshness of river", "price": 15,  "image": "https://picsum.photos/seed/phone-case/400/300" },
+    { "id": "p15", "name": "Sip of dawn energy",               "price": 14,  "image": "https://picsum.photos/seed/sports-bottle/400/300" },
+    { "id": "p16", "name": "Thoughts in golden fields",        "price": 6,   "image": "https://picsum.photos/seed/notebook-paper/400/300" }
+  ]
+}
