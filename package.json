@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@dv.net/js-client": "^0.1.1",
+    "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
     "uuid": "^13.0.0"

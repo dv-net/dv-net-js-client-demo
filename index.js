@@ -1,10 +1,12 @@
 import express from 'express'
 import session from 'express-session'
 import path from "path";
+import dotenv from "dotenv";
 import { v4 as uuidv4 } from 'uuid';
 import { fileURLToPath } from "url";
 import { MerchantClient } from "@dv.net/js-client";
 
+dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -12,8 +14,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const client = new MerchantClient({
-    xApiKey: 'qYxIdPtcFOI9bCGoZeom4ygR46tYCScMBw2iX7Uxzaji9HkCjJqIEQjla1JZ84cf',
-    host: 'https://demo.dv.net'
+    xApiKey: process.env.X_API_KEY,
+    host: process.env.HOST
 });
 
 app.use(express.json());
