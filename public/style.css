@@ -44,7 +44,7 @@ body{
 .btn-ghost{background:transparent}
 .icon-btn{background:transparent;border:1px solid var(--border);color:var(--sub);border-radius:10px;height:36px;width:36px;cursor:pointer}
 
-.cart{position:fixed;top:0;right:-420px;width:380px;max-width:90vw;height:100vh;background:var(--panel);border-left:1px solid var(--border);box-shadow:-10px 0 30px rgba(0,0,0,.35);transition:right .25s ease;z-index:30;display:flex;flex-direction:column}
+.cart{position:fixed;top:0;right:-420px;width:380px;max-width:90vw;height:100vh;height:100dvh;background:var(--panel);border-left:1px solid var(--border);box-shadow:-10px 0 30px rgba(0,0,0,.35);transition:right .25s ease;z-index:30;display:flex;flex-direction:column}
 .cart.open{right:0}
 .cart-header{display:flex;align-items:center;justify-content:space-between;padding:16px;border-bottom:1px solid var(--border)}
 .cart-items{flex:1;overflow:auto;padding:10px}
